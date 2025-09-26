@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const LeafIcon: React.FC<{ className?: string }> = ({ className }) => (
@@ -52,5 +51,12 @@ export const TrophyIcon: React.FC<{ className?: string }> = ({ className }) => (
 export const BookIcon: React.FC<{ className?: string }> = ({ className }) => (
     <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
         <path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/>
+    </svg>
+);
+
+// FIX: Add missing BotIcon component.
+export const BotIcon: React.FC<{ className?: string }> = ({ className }) => (
+    <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M8.5,10A1.5,1.5 0 0,1 10,11.5A1.5,1.5 0 0,1 8.5,13A1.5,1.5 0 0,1 7,11.5A1.5,1.5 0 0,1 8.5,10M12,7.5C12.83,7.5 13.5,8.17 13.5,9H10.5C10.5,8.17 11.17,7.5 12,7.5M15.5,10A1.5,1.5 0 0,1 17,11.5A1.5,1.5 0 0,1 15.5,13A1.5,1.5 0 0,1 14,11.5A1.5,1.5 0 0,1 15.5,10Z" />
     </svg>
 );
